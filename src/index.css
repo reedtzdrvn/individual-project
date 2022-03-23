@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./assets/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tasks {
+    width: 272px;
+    background: #dfe3e6;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.tasks__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasks__item span {
+    max-width: 200px;
+}
+
+.tasks__title img {
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.tasks p {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 12px;
+    line-height: 19px;
+}
+
+.tasksController {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.tasks__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    width: 248px;
+    margin-bottom: 8px;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);
+    border-radius: 3px;
+    padding: 8px 12px;
+}
+
+.tasks__item img {
+    width: 12px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.buttonHandle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 43px;
+    border-radius: 3px;
+}
+
+.buttonHandle button {
+    cursor: pointer;
+    width: 196px;
+    margin-left: 8px;
+    border: none;
+    background-color: transparent;
+    color: #6b808c;
+}
+
+.buttonHandle img {
+    margin-left: 12px;
+    width: 15px;
+}
+
+.buttonHandle:hover {
+    background-color: #bac4ca;
+    transition: 0.1s;
+}
+
+.textareaHandle {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.text {
+    color: #9a9a9c;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    padding: 8px 12px;
+    resize: none;
+    border: none;
+    box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);
+    border-radius: 3px;
+    width: 248px;
+    height: 54px;
+    margin-bottom: 8px;
+}
+
+.textareaHandle button {
+    color: #fff;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    height: 30px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    background: #39c071;
+    border-radius: 3px;
+    line-height: 19px;
+}
+
+.textareaHandle button:hover {
+    transition: 0.1s;
+    background-color: #2f9d5d;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.flexContainer img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
