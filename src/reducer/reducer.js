@@ -3,30 +3,7 @@ const generateId = () => {
 };
 
 export const initialState = {
-    columns: [
-        {
-            title: "План на месяц",
-            tasks: [
-                { text: "Пройти курс по React", id: generateId() },
-                { text: "Отметить день рождения", id: generateId() },
-                {
-                    text:
-                        "Записаться на курсы английского языка, чтобы уехать жить в Лондон",
-                    id: generateId(),
-                },
-                {
-                    text: "Сделать бекенд своего сайта на node.js",
-                    id: generateId(),
-                },
-            ],
-            id: generateId(),
-        },
-        {
-            title: "План на день",
-            tasks: [{ text: "Пройти курс по React", id: generateId() }],
-            id: generateId(),
-        },
-    ],
+    columns: [],
 };
 
 export const reducer = (state, action) => {
